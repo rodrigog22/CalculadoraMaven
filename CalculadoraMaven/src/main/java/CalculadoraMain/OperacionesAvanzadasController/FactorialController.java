@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class FactorialController {
     
-    @GetMapping("/factorial")
+    @GetMapping("/avanzadas/factorial")
     public int factorial(@RequestParam int a)
             {
               int acum=1;
